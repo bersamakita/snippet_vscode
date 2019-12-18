@@ -1,0 +1,105 @@
+{       
+        //happy code
+        //thanks for support   
+        // created by loading kura kura
+        // email : zopram35@gmail.com
+        "kuroe": {
+            "prefix": "kuroe",
+            "body": [
+                "<?= $1; ?>"
+            ],
+            "description": "php tag"
+        }
+    
+          "kuro": {
+            "prefix": "kuro",
+            "body": [
+                "<?php $1; ?>"
+            ],
+            "description": "php tag"
+        }
+    
+        "laraend": {
+            "prefix": "laraend",
+            "body": [
+                "@section('$1')",
+                "$0",
+                "@endsection('$2')"
+            ],
+            "description": "tag Laravel"
+        }
+    
+        "titis1": {
+            "prefix": "titis1",
+            "body": [
+                "$0",
+                "<?php if(kondisi$1) :?>",
+                " <!--kodingmu selehen kene-->$0",
+                "<?php elseif: ?>",
+                "<!-- karo iki pisan isien kodingmu -->$0",
+                "<?php endif;?>"
+                "$0"
+            ],
+            "description": "iki tag <?php gawe elseif ?>"
+        }
+    
+        "titis": {
+            "prefix": "titis",
+            "body": [
+                "$0",
+                "<?php if(kondisi$1) :?>",
+                " <!--kodingmu selehen kene-->$0",
+                "<?php else: ?>",
+                "<!-- karo iki pisan isien kodingmu -->$0",
+                "<?php endif;?>",
+                "$0"
+            ],
+            "description": "iki tag <?php cuma else tok ?>"
+        }
+    
+        "bimbi": {
+            "prefix": "bimbi",
+            "body": [
+                "<?= base_url('$1'); ?>"
+            ],
+            "description": "php tag"
+        }
+        
+    
+        "aria": {
+            "prefix": "aria",
+            "body": [
+                "@extends('$1')",
+                "$0",
+                "@section('')",
+                "$0",
+                "@endsection('')"
+            ],
+            "description": "tag laravel"
+        }
+    
+        "putri": {
+            "prefix": "putri",
+            "body": [
+                "<button type='submit' class='btn btn-primary'>Kirim$1</button>"
+            ],
+            "description": "php tag"
+        }
+
+        "footer1": {
+            "prefix": "footer1",
+            "body": [
+                "<span>Coder Rebahan 2019</span><i class='fa fa-graduation-cap'></i>. <?= date('Y'); ?>"
+            ],
+            "description": "php tag"
+        }
+
+        "inin": {
+            "prefix": "inin",
+            "body": [
+                "$this->input->post('$1');"
+            ],
+            "description": "php tag"
+        }
+    
+}
